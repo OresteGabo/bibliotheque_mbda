@@ -25,77 +25,90 @@
         <h2 class="title">Les livres de science, technology et histoire</h2>
         <ul id="science-books">
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name"> The Radicalism of the American Revolution </span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name"> Liberty before Liberalism </span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name">Homo Deus</span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name"> 21 leçons pour le XXIe siècle </span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
 
 
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name">Things fall apart</span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name">Death in the dojo</span>
                 <div class="author">Sue Leather</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name">African child</span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name">Brief history of human kind</span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
             <li>
+            <span class="delete">supprimer</span>
                 <span class="name">Rich dad poor dad</span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
 
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
         </ul>
         <h2 class="title">Les livres d'éducation financière</h2>
         <ul>
-            <li><span class="name">Père riche Père pauvre</span>
+            <li>
+            <span class="delete">supprimer</span>    
+            <span class="name">Père riche Père pauvre</span>
                 <div class="author">Auteur: Robert Kiyosaki</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
-            <li><span class="name">Why We Want You to Be Rich</span>
+            <li><span class="delete">supprimer</span>
+                <span class="name">Why We Want You to Be Rich</span>
                 <div class="author">Auteur:Donald trump</div>
                 <div class="date_sortie">01/01/2000</div>
-                <span class="delete">supprimer</span>
+                
             </li>
         </ul>
     </div>
+    <p id="demo"></p>
     <form id="add-book">
 
         <div>
@@ -103,7 +116,7 @@
         </div>
         <div></br><input type="text" id="add-book-author-text-field" placeholder="Ajouter l'auteur du livre" required/></div>
         <div></br><input type="date" id="add-book-release-date-field" placeholder="Date de sortie du livre" required/></div>
-        <div><button onclick="ajouterLivre()">Ajouter</button></div>
+        <div><button id="ajouter">Ajouter</button></div>
     </form>
 </div>
 <script type="text/javascript" src="scripts/script.js"></script>
