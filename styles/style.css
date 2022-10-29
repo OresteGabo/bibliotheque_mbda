@@ -53,12 +53,57 @@ h1, h2{
 .delete{
     float: right;
     background: #9361bf;
-    padding: 6px;
     border-radius: 4px;
     cursor: pointer;
     color: white;
+    border: 1px solid #9361bf;
+    padding: 10px 20px;
+    margin: 20px 20px;
+
 }
 
 .delete:hover{
     background: #333;
+}
+
+#add-book{
+    margin: 0 auto;
+}
+#add-book div{
+    padding: 10px;
+    margin-left:30px ;
+}
+
+#add-book input{
+    background-color:transparent;
+    border:0;
+    border-bottom:2px #fff solid;
+    display:block;
+    width:100%;
+    padding:15px 0;
+    font-size:18px;
+
+    outline:0;
+    border-bottom-color:lightgray;
+
+}
+
+#add-book button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-book:after{
+    content: '';
+    display: block;
+    clear: both;
 }
