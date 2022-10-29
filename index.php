@@ -23,7 +23,7 @@
     </header>
     <div id="book-list">
         <h2 class="title">Les livres de science, technology et histoire</h2>
-        <ul>
+        <ul id="science-books">
             <li>
                 <span class="name"> The Radicalism of the American Revolution </span>
                 <div class="author">Autheur: Robert t kiyosaki</div>
@@ -82,7 +82,7 @@
                 <span class="delete">supprimer</span>
             </li>
         </ul>
-        <h2 class="title">Les livres de science, technology et histoire</h2>
+        <h2 class="title">Les livres d'éducation financière</h2>
         <ul>
             <li><span class="name">Père riche Père pauvre</span>
                 <div class="author">Auteur: Robert Kiyosaki</div>
@@ -98,10 +98,12 @@
     </div>
     <form id="add-book">
 
-        <div><label for="add-book-title-text-field">Titre</label><input type="text" id="add-book-title-text-field" placeholder="Ajouter le titre du livre" required/></div>
-        <div><label for="add-book-author-text-field">Auteur</label><input type="text" id="add-book-author-text-field" placeholder="Ajouter l'auteur du livre" required/></div>
-        <div><label for="add-book-release-date-field">Date de sortie</label><input type="date" id="add-book-release-date-field" placeholder="Date de sortie du livre" required/></div>
-        <div><button>Add</button></div>
+        <div>
+            </br><input type="text" id="add-book-title-text-field" placeholder="Ajouter le titre du livre" required/>
+        </div>
+        <div></br><input type="text" id="add-book-author-text-field" placeholder="Ajouter l'auteur du livre" required/></div>
+        <div></br><input type="date" id="add-book-release-date-field" placeholder="Date de sortie du livre" required/></div>
+        <div><button onclick="ajouterLivre()">Ajouter</button></div>
     </form>
 </div>
 <script type="text/javascript" src="scripts/script.js"></script>
