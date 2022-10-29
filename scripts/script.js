@@ -4,8 +4,8 @@
 
 
 function supprimerLivre(){
-    const listItems = document.querySelectorAll('#book-list ul li');
-    Array.from(listItems).forEach(function(item){
+    const listItemDeleteButton = document.querySelectorAll('#book-list ul li .delete');
+    Array.from(listItemDeleteButton).forEach(function(item){
         item.addEventListener('click', (e) => {
             const li = e.target.parentElement;
             li.parentNode.removeChild(li);
@@ -14,4 +14,6 @@ function supprimerLivre(){
     });
 }
 
-supprimerLivre()
+supprimerLivre();
+
+
